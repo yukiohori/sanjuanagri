@@ -1,13 +1,18 @@
 import React from 'react'
-import DuckImage from '../assets/Duck.jpg'
 import './HomeView.scss'
 import { Link } from 'react-router'
+import { Button, Input } from 'semantic-ui-react'
 
 export const HomeView = () => (
-  <div>
-    <h4>Welcome! San Juan</h4>
-    <img alt='This is a duck, because Redux!' className='duck' src={DuckImage} />
-    <Link to='/counter'>Counter</Link>
+  <div className='login-screen'>
+    <div className='login'>
+      <h4>LOGIN</h4>
+      <div className='login-form'>
+        <Input className='input-style' focus placeholder='Usuario' />
+        <Input className='input-style' placeholder='Contraseña' />
+      </div>
+      <Link to='/counter'><Button className='btn-color'>LOGIN</Button></Link>
+    </div>
   </div>
 )
 
