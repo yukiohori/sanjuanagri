@@ -2,10 +2,13 @@
 .login{
   max-width: 400px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 20px 20px;
-  background-color: #2ecc71;
+  background-color: #27ae60;
   text-align: center;
+  h4{
+    color: white;
+  }
 }
 
 .login-screen{
@@ -22,6 +25,7 @@
 .login-form{
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .input-style{

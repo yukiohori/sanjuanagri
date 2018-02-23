@@ -8,7 +8,7 @@ export const HomeView = () => (
     <div className='login'>
       <h4>LOGIN</h4>
       <div className='login-form'>
-        <Input className='input-style' focus placeholder='Usuario' />
+        <Input className='input-style' placeholder='Usuario' />
         <Input className='input-style' placeholder='Contraseña' />
       </div>
       <Link to='/counter'><Button className='btn-color'>LOGIN</Button></Link>
