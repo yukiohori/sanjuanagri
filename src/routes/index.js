@@ -10,7 +10,7 @@ import MainRoute from './Main'
 export const createRoutes = (store) => ({
   path        : '/',
   component   : CoreLayout,
-  indexRoute  : Home,
+  indexRoute  : MainRoute,
   childRoutes : [
     CounterRoute(store),
     MainRoute(store),
