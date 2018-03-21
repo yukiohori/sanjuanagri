@@ -11,7 +11,7 @@ export const HomeView = () => (
         <Input className='input-style' placeholder='Usuario' />
         <Input className='input-style' placeholder='Contraseña' />
       </div>
-      <Link to='/counter'><Button className='btn-color'>LOGIN</Button></Link>
+      <Link to='/main'><Button className='btn-color'>LOGIN</Button></Link>
     </div>
   </div>
 )

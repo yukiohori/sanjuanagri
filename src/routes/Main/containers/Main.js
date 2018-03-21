@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { increment, doubleAsync } from '../modules/counter'
-import Counter from '../components/Counter'
+import Main from '../components/Main'
 
 /*  Object of action creators (can also be function that returns object).
     Keys will be passed as props to presentational components. Here we are
@@ -29,4 +29,4 @@ const mapStateToProps = (state) => ({
     Selectors are composable. They can be used as input to other selectors.
     https://github.com/reactjs/reselect    */
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter)
+export default connect(mapStateToProps, mapDispatchToProps)(Main)
